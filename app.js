@@ -154,6 +154,6 @@ else{
 app.get("/about",function(req,res){
   res.render("about");
 });
-app.listen(4000,function(req,res){
+app.listen(4000 || process.env.PORT,function(req,res){
   console.log("Server Up at port 4000");
 });
