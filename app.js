@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 const _ = require("lodash");
 
-mongoose.connect("mongodb+srv://Syed_Tawseef:Syedstk143@cluster0.ufvlx5k.mongodb.net/todoList");
+mongoose.connect("mongodb+srv://username:pw@cluster0.ufvlx5k.mongodb.net/todoList");
 
 // const date = require(__dirname+"/date.js");
 
